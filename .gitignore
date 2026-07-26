@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+env/
+.venv/
+
+# ML artifacts (large files — regenerate with `npm run train`)
+ml-pipeline/models/*.pkl
+ml-pipeline/models/*.png
+ml-pipeline/models/metrics.json
+ml-pipeline/models/feature_columns.json
+ml-pipeline/data/*.csv
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
